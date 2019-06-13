@@ -38,7 +38,7 @@ def parser(pageContent):
     products = []
     for li in lis:
         product = get_productinfo(li)
-        if product:
+        if product != None:
             products.append(product)
     
     return products
