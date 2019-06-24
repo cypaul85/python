@@ -16,5 +16,5 @@ for r in ws.rows:
     ws.cell(row=row_index, column=6).value = avg
 
     print(kor, eng, math, sum, avg)
-wb.save("Scores2.xlsx")
+wb.save("Scores3.xlsx")
 wb.close()
